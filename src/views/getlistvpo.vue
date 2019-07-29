@@ -6,7 +6,8 @@
                 <b-row>
                     <b-col md="12" class="my-1">
                         <b-form-row>
-                            <b-col md="8">
+                            <!-- <b-col md="8"> -->
+                            <b-col md="12">
                                 <b-form-group label-cols-lg="1" label="Поиск:" class="mb-10">
                                     <b-input-group > 
                                         <!-- <b-form-input 
@@ -40,11 +41,11 @@
                                     </b-input-group>
                                 </b-form-group>
                             </b-col>
-                            <b-col md="4">
+                            <!-- <b-col md="4">
                                 <b-form-group label-cols-sm="8" label="Результатов на странице:" class="mb-0">
                                     <b-form-select v-model="perPage" :options="pageOptions"></b-form-select>
                                 </b-form-group>
-                            </b-col>
+                            </b-col> -->
                         </b-form-row>
                     </b-col>
                 </b-row>
@@ -216,7 +217,7 @@ export default {
             },
             totalRows: null,
             currentPage: 1,
-            perPage: 50,
+            perPage: 15,
             pageOptions: [50, 100, 150, 300, 1000],
             filter: null,
             // kb

@@ -5,13 +5,13 @@
       <BaseSlogan msg="Информационный экран ТюмГМУ"/>
       <BaseSlogan disclaimer="Информация отображается в реальном времени"/>
       <div v-if="!main" class="mt-5">
-        <b-button :to="{ path: '/' }"><font-awesome-icon icon="arrow-left" /> Вернуться на главную страницу</b-button>
+        <b-button :to="{ path: '/getlists' }"><font-awesome-icon icon="arrow-left" /> Вернуться на предыдущую страницу</b-button>
       </div>
 
       <hr>
       <router-view />
       <hr>
-      <p align="center">Версия 1.1</p>
+      <p align="center">Версия 1.2</p>
     </div>
   </div>
 </template>

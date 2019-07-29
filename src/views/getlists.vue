@@ -3,22 +3,22 @@
         <h2> Выберите интересующий уровень подготовки: </h2>
         <b-container>
         <b-row>
-            <b-col>
+            <b-col sm="6">
                 <div class="mt-4">
                     <b-button variant="info" :to="{ path: '/GetLists/Vpo' }">Список поступающих на специалитет/бакалавриат</b-button>
                 </div>
             </b-col>
-            <b-col>
+            <b-col sm="6">
                 <div class="mt-4">
                     <b-button variant="danger" :to="{ path: '/GetLists/Mag' }">Список поступающих в Магистратуру</b-button>
                 </div>
             </b-col>
-            <b-col>
+            <b-col sm="6">
                 <div class="mt-4">
                     <b-button variant="warning" :to="{ path: '/GetLists/Ord' }">Список поступающих в Ординатуру</b-button>
                 </div>
             </b-col>
-            <b-col>
+            <b-col sm="6">
                 <div class="mt-4">
                     <b-button variant="success" :to="{ path: '/GetLists/Asp' }" disabled="">Список поступающих в Аспирантуру</b-button>
                 </div>
@@ -40,6 +40,9 @@ export default {
         width: 20em;
         height: 5em;
     } */
+    a.btn {
+        width: 17em;
+    }
     .btn-warning {
         color: #fff;
         background-color: #776466;
