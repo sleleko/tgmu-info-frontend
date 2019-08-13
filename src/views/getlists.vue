@@ -20,7 +20,7 @@
             </b-col>
             <b-col sm="6">
                 <div class="mt-4">
-                    <b-button variant="success" :to="{ path: '/GetLists/Asp' }" disabled="">Список поступающих в Аспирантуру</b-button>
+                    <b-button variant="success" :to="{ path: '/GetLists/Asp' }">Список поступающих в Аспирантуру</b-button>
                 </div>
             </b-col>
         </b-row>

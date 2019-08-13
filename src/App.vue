@@ -11,7 +11,7 @@
       <hr>
       <router-view />
       <hr>
-      <p align="center">Версия 1.2</p>
+      <p align="center">Версия 1.4</p>
     </div>
   </div>
 </template>
